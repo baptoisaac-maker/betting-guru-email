@@ -26,8 +26,8 @@ jobs:
           DRY_RUN: "false"
           EMAIL_HOST: "smtp.gmail.com"
           EMAIL_PORT: "587"
-          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_USERNAME: "betguru@gmail.com."
+          EMAIL_PASSWORD: "rljtfxauuzvxzegg"
+          EMAIL_FROM: "betguru@gmail.com"
+          EMAIL_TO: "baptoisaac@gmail.com"
         run: python main.py
