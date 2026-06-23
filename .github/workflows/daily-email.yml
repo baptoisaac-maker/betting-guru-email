@@ -24,7 +24,7 @@ jobs:
       - name: Send email
         env:
           DRY_RUN: "false"
-          EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
+          EMAIL_HOST: "smtp.gmail.com"
           EMAIL_PORT: "587"
           EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
